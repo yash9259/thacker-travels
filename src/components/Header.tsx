@@ -48,7 +48,7 @@ const Header = () => {
               <img src="/logo.png" alt="Logo" className="w-20 h-20 rounded-lg shadow-md object-contain" />
               <span className="text-[10px] text-muted-foreground mt-1">Since 2003</span>
             </div>
-            <div className="hidden sm:block">
+            <div>
               <h1 className="font-display font-bold text-lg text-foreground leading-tight">Thacker Tours</h1>
               <p className="text-xs text-muted-foreground">& Travels</p>
             </div>

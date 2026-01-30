@@ -56,7 +56,7 @@ const WhyUs = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6">
               <div className="text-center p-4 bg-card rounded-xl shadow-soft">
-                <div className="font-display text-3xl lg:text-4xl font-bold text-primary mb-1">10+</div>
+                <div className="font-display text-3xl lg:text-4xl font-bold text-primary mb-1">22</div>
                 <div className="text-sm text-muted-foreground">Years Experience</div>
               </div>
               <div className="text-center p-4 bg-card rounded-xl shadow-soft">
