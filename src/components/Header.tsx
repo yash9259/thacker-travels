@@ -49,8 +49,8 @@ const Header = () => {
               <span className="text-[10px] text-muted-foreground mt-1">Since 2003</span>
             </div>
             <div>
-              <h1 className="font-display font-bold text-lg text-foreground leading-tight">Thacker Tours</h1>
-              <p className="text-xs text-muted-foreground">& Travels</p>
+              <h1 className="font-display font-bold text-lg text-foreground leading-tight">Thacker </h1>
+              <p className="text-xs text-muted-foreground">Tours & Travels</p>
             </div>
           </Link>
 
