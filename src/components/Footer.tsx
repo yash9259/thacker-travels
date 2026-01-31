@@ -15,8 +15,8 @@ const Footer = () => {
                 <span className="text-[10px] text-terracotta mt-1">Since 2003</span>
               </div>
               <div>
-                <h3 className="font-display font-bold text-lg leading-tight">Thacker Tours</h3>
-                <p className="text-xs text-primary-foreground/60">& Travels</p>
+                <h3 className="font-display font-bold text-lg leading-tight">Thacker</h3>
+                <p className="text-xs text-primary-foreground/60">Tours & Travels</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
