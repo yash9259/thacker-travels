@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 
-const BASE_URL = "https://thackertravels.com";
+const BASE_URL = "https://www.thackertoursandtravels.com";
 const DEFAULT_IMAGE = `${BASE_URL}/logo.webp`;
 const SITE_NAME = "Thacker Tours & Travels";
 const AUTHOR = "Thacker Tours & Travels";
