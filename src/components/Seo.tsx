@@ -47,7 +47,7 @@ const buildTravelAgencyJsonLd = () => ({
   "@type": "TravelAgency",
   name: SITE_NAME,
   description:
-    "Bhuj, Kutch travel agency offering taxi service, one-way and round-trip cab booking, airport transfers, and Kutch tour packages.",
+    "Travel agency in Bhuj and Kutch offering taxi services, car rental, one-way and round-trip cab booking, airport pickup, and Kutch sightseeing tour packages including White Rann, Rann of Kutch, Mandvi Beach, and Dholavira heritage tours.",
   url: BASE_URL,
   telephone: ["+91-98792-30104", "+91-99139-00040"],
   email: "thackertravels1@gmail.com",

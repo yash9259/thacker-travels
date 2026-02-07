@@ -13,8 +13,8 @@ const NotFound = () => {
     <div className="flex min-h-screen items-center justify-center bg-muted">
       <Seo
         title="404 - Page Not Found | Thacker Tours & Travels"
-        description="The page you're looking for is not available. Book Bhuj taxi, Kutch tours, or one-way and round-trip cabs with Thacker Tours & Travels."
-        keywords="404 page not found, Bhuj taxi, Kutch tours"
+        description="The page you're looking for is not available. Book Bhuj taxi services, airport transfers, and Kutch sightseeing tours with Thacker Tours & Travels."
+        keywords="404 page not found, Bhuj taxi services, Kutch sightseeing tours"
         path="404"
         noindex={true}
       />
