@@ -44,13 +44,13 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="flex flex-col items-center">
+            <picture>
+              <source srcSet="/logo.webp" type="image/webp" />
               <img src="/logo.png" alt="Logo" className="w-20 h-20 rounded-lg shadow-md object-contain" />
-              <span className="text-[10px] text-muted-foreground mt-1">Since 2003</span>
-            </div>
-            <div>
-              <h1 className="font-display font-bold text-lg text-foreground leading-tight">Thacker </h1>
-              <p className="text-xs text-muted-foreground">Tours & Travels</p>
+            </picture>
+            <div className="hidden sm:block">
+              <h1 className="font-display font-bold text-lg text-[#d2562d] leading-tight">Thacker</h1>
+              <p className="text-xs text-[#d2562d]">Tours &amp; Travels</p>
             </div>
           </Link>
 

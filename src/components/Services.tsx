@@ -3,13 +3,13 @@ import { Car, Hotel, MapPin, Tent, Mountain, Plane, Home, Clock } from "lucide-r
 const services = [
   {
     icon: Car,
-    title: "24×7 Car Rental",
-    description: "Comfortable vehicles with professional drivers for local and outstation travel across Kutch and Gujarat.",
+    title: "Round Trip Taxi",
+    description: "Book round-trip taxi for Kutch tours, White Rann visits, Mandvi Beach, and multi-day Kutch exploration.",
   },
   {
     icon: Clock,
-    title: "One Way Taxi",
-    description: "Affordable one-way taxi service from Bhuj to anywhere in Gujarat & India, saving your cost and time.",
+    title: "One Way Taxi Booking",
+    description: "Affordable one-way taxi from Bhuj to White Rann, Mandvi, Rann Utsav, and anywhere in Gujarat & India.",
   },
   {
     icon: Hotel,
@@ -18,8 +18,8 @@ const services = [
   },
   {
     icon: MapPin,
-    title: "Kutch Tour Packages",
-    description: "Explore White Rann, Kala Dungar, Mandvi Beach, Bhuj attractions with customized tour packages.",
+    title: "Kutch Tours & Sightseeing",
+    description: "Explore White Rann desert, Kala Dungar, Mandvi Beach, traditional villages, Bhuj attractions with expert local guides.",
   },
   {
     icon: Tent,
@@ -53,11 +53,11 @@ const Services = () => {
             Our Services
           </span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Complete Travel Solutions in{" "}
-            <span className="text-primary">Kutch & Gujarat</span>
+            Bhuj Taxi Service &{" "}
+            <span className="text-primary">Kutch Tours</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            From airport transfers to curated tour packages, we handle every aspect of your journey 
+            One-way and round-trip taxi booking, airport transfers, sightseeing tours, and Kutch tour packages 
             with professionalism and care.
           </p>
         </div>

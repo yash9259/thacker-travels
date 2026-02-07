@@ -2,17 +2,21 @@ import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Star } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-desert.jpg";
+import heroImageWebp from "@/assets/hero-desert.webp";
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
-        <img
-          src={heroImage}
-          alt="White Rann of Kutch desert at sunset with camels"
-          className="w-full h-full object-cover"
-        />
+        <picture>
+          <source srcSet={heroImageWebp} type="image/webp" />
+          <img
+            src={heroImage}
+            alt="White Rann of Kutch desert at sunset with camels"
+            className="w-full h-full object-cover"
+          />
+        </picture>
         <div className="absolute inset-0 bg-gradient-to-r from-charcoal/80 via-charcoal/60 to-charcoal/40" />
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 via-transparent to-transparent" />
       </div>
@@ -28,14 +32,13 @@ const Hero = () => {
 
           {/* Main heading */}
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-primary-foreground leading-tight mb-6 animate-fade-up animation-delay-100">
-            Discover the Magic of{" "}
-            <span className="text-terracotta-light">Kutch & Gujarat</span>
+            Bhuj Taxi Service & Kutch{" "}
+            <span className="text-terracotta-light">Tours</span>
           </h1>
 
           {/* Subheading */}
           <p className="text-lg sm:text-xl text-primary-foreground/90 mb-8 max-w-2xl animate-fade-up animation-delay-200">
-            Your trusted partner for taxi services, hotel bookings, and customized tour packages. 
-            Experience the White Rann, Rann Utsav, Statue of Unity & more with our expert local guides.
+            Book one-way and round-trip taxi service in Bhuj. Airport transfers, sightseeing, Kutch tours, White Rann, Rann Utsav, Mandvi Beach, and Statute of Unity packages. 24×7 cab booking available.
           </p>
 
           {/* Trust indicators */}
@@ -59,11 +62,11 @@ const Hero = () => {
             <Button variant="hero" size="xl" asChild>
               <a href="tel:+919879230104" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call Now: +91 98792 30104
+                Book Taxi Now: +91 98792 30104
               </a>
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
-              <Link to="/fleet">View Fleet</Link>
+              <Link to="/fleet">View Taxi Fleet</Link>
             </Button>
           </div>
         </div>

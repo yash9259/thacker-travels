@@ -44,13 +44,12 @@ const WhyUs = () => {
               Why Choose Us
             </span>
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Your Trusted Travel Partner in{" "}
-              <span className="text-primary">Kutch</span>
+              Why Choose Thacker{" "}
+              <span className="text-primary">Bhuj Taxi</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              With years of experience serving thousands of happy travelers, 
-              Thacker Tours & Travels has become the go-to choice for reliable 
-              and affordable travel services in Kutch and Gujarat.
+              Bhuj's most trusted taxi service with one-way and round-trip options, White Rann tours, 
+              Rann Utsav packages, and expert Kutch sightseeing. 24×7 cab booking available.
             </p>
 
             {/* Stats */}

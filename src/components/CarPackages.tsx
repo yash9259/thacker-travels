@@ -143,6 +143,8 @@ Vehicle: ${selectedCar?.name} (${selectedCar?.capacity})`;
     return cars_list;
   };
 
+  const getWebpPath = (imagePath: string) => imagePath.replace(/\.(png|jpg|jpeg)$/i, ".webp");
+
   return (
     <section className="py-20 lg:py-28 bg-slate-50">
       <div className="container mx-auto px-4">
@@ -176,11 +178,14 @@ Vehicle: ${selectedCar?.name} (${selectedCar?.capacity})`;
                   <div className="bg-white rounded-3xl overflow-hidden shadow-soft hover:shadow-lg transition-all duration-300 h-full flex flex-col">
                     {/* Image Container */}
                     <div className="relative h-64 sm:h-72 overflow-hidden bg-gradient-to-br from-primary/10 to-primary/5">
-                      <img
-                        src={car.image}
-                        alt={car.name}
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                      />
+                      <picture>
+                        <source srcSet={getWebpPath(car.image)} type="image/webp" />
+                        <img
+                          src={car.image}
+                          alt={car.name}
+                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        />
+                      </picture>
                       <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                     </div>
 

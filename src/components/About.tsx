@@ -7,7 +7,10 @@ const About = () => {
           <div className="relative">
             <div className="aspect-[4/3] bg-gradient-to-br from-primary/20 to-terracotta-light/20 rounded-3xl overflow-hidden">
               <div className="absolute inset-0 flex items-center justify-center">
-                <img src="/about.png" alt="About Thacker Tours" className="w-96 h-96 rounded-3xl shadow-lg object-contain" />
+                <picture>
+                  <source srcSet="/about.webp" type="image/webp" />
+                  <img src="/about.png" alt="About Thacker Tours" className="w-96 h-96 rounded-3xl shadow-lg object-contain" />
+                </picture>
               </div>
             </div>
             {/* Decorative elements */}
@@ -21,36 +24,34 @@ const About = () => {
               About Us
             </span>
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Your Gateway to{" "}
-              <span className="text-primary">Kutch's Beauty</span>
+              Bhuj Taxi Service &{" "}
+              <span className="text-primary">Kutch Tours</span>
             </h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Thacker Tours & Travels is a locally owned and operated travel agency in Bhuj, Gujarat, 
-                dedicated to providing high-quality travel solutions for tourists, families, business 
-                travelers, and pilgrims.
+                Thacker Tours & Travels is a trusted Bhuj-based travel agency offering one-way and round-trip taxi service, 
+                airport transfers, Kutch tour packages, and specialized White Rann, Rann Utsav, and Mandvi Beach trips.
               </p>
               <p>
-                Our goal is to deliver safe, reliable, and customer-friendly travel services while 
-                promoting the rich culture and tourism of Kutch and Gujarat. We take pride in 
-                showcasing the unique heritage, stunning landscapes, and warm hospitality of our region.
+                Our experienced local drivers and cab fleet (Toyota Innova, Ertiga, Swift Dzire, Tempo Traveller, Force Urbania) 
+                ensure safe, comfortable travel across Kutch and Gujarat. We specialize in Bhuj taxi booking for tourists, families, 
+                and business travelers.
               </p>
               <p>
-                With years of experience and deep local expertise, we have become the preferred choice 
-                for travelers visiting Kutch. From the ethereal White Rann to the magnificent Statue 
-                of Unity, we ensure every journey is memorable.
+                With years of local expertise, we are Kutch's most trusted travel agency. Book our one-way or round-trip taxi service 
+                for White Rann exploration, Rann Utsav packages, Statue of Unity tours, and comprehensive Gujarat travel solutions.
               </p>
             </div>
 
             {/* Key points */}
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="bg-background p-4 rounded-xl">
-                <p className="font-display font-bold text-xl text-primary">Local Experts</p>
-                <p className="text-sm text-muted-foreground">Born & raised in Kutch</p>
+                <p className="font-display font-bold text-xl text-primary">Bhuj Taxi Experts</p>
+                <p className="text-sm text-muted-foreground">24×7 cab booking</p>
               </div>
               <div className="bg-background p-4 rounded-xl">
-                <p className="font-display font-bold text-xl text-primary">Family Owned</p>
-                <p className="text-sm text-muted-foreground">Personal touch in service</p>
+                <p className="font-display font-bold text-xl text-primary">Kutch Tours</p>
+                <p className="text-sm text-muted-foreground">White Rann & tours</p>
               </div>
             </div>
           </div>
