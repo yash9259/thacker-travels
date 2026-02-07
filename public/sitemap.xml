@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
-  <!-- Homepage -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://thackertravels.com/</loc>
     <lastmod>2026-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://thackertravels.com/logo.webp</image:loc>
-      <image:title>Thacker Tours & Travels Logo - Bhuj Taxi Service</image:title>
-    </image:image>
   </url>
 
-  <!-- Services Page -->
   <url>
     <loc>https://thackertravels.com/services</loc>
     <lastmod>2026-02-07</lastmod>
@@ -21,39 +14,20 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Fleet Page -->
   <url>
     <loc>https://thackertravels.com/fleet</loc>
     <lastmod>2026-02-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://thackertravels.com/Toyota%20Innova.webp</image:loc>
-      <image:title>Toyota Innova Taxi in Bhuj Kutch</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://thackertravels.com/Maruti%20Ertiga.webp</image:loc>
-      <image:title>Maruti Ertiga Cab Bhuj</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://thackertravels.com/Tempo%20Traveller.webp</image:loc>
-      <image:title>Tempo Traveller Group Tour Vehicle Kutch</image:title>
-    </image:image>
   </url>
 
-  <!-- About Page -->
   <url>
     <loc>https://thackertravels.com/about</loc>
     <lastmod>2026-02-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://thackertravels.com/about.webp</image:loc>
-      <image:title>About Thacker Tours Travels Bhuj</image:title>
-    </image:image>
   </url>
 
-  <!-- Contact Page -->
   <url>
     <loc>https://thackertravels.com/contact</loc>
     <lastmod>2026-02-07</lastmod>
