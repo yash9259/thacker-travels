@@ -47,7 +47,7 @@ const Footer = () => {
           <div>
             <h4 className="font-display font-bold text-xl mb-6">Our Services</h4>
             <ul className="space-y-3">
-              {['Local Taxi Service', 'Airport Transfer', 'Railway Station Pickup', 'Kutch Tour Packages', 'Corporate Car Rental'].map((item) => (
+              {['Car Rental in Bhuj', 'Taxi Service in Kutch', 'Bhuj Airport Transfer', 'Railway Station Taxi', 'Full Day Sightseeing'].map((item) => (
                 <li key={item} className="text-gray-400 flex items-center gap-2">
                   <div className="h-1.5 w-1.5 rounded-full bg-primary/50"></div>
                   {item}
@@ -57,29 +57,41 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-display font-bold text-xl mb-6">Legal</h4>
-            <ul className="space-y-3 text-gray-400">
-              <li>
-                <PrivacyPolicy>
-                  <button className="hover:text-primary transition-colors text-left">Privacy Policy</button>
-                </PrivacyPolicy>
-              </li>
-              <li>
-                <TermsOfService>
-                  <button className="hover:text-primary transition-colors text-left">Terms of Service</button>
-                </TermsOfService>
-              </li>
-              <li>
-                <RefundPolicy>
-                  <button className="hover:text-primary transition-colors text-left">Refund Policy</button>
-                </RefundPolicy>
-              </li>
+            <h4 className="font-display font-bold text-xl mb-6">Popular Taxi Routes</h4>
+            <ul className="space-y-3">
+              {[
+                'Bhuj to Rann of Kutch Taxi',
+                'Bhuj to Mandvi Beach Cab',
+                'Bhuj to Dholavira Car Hire',
+                'Kutch Tour Packages',
+                'Bhuj to Ahmedabad Taxi'
+              ].map((item) => (
+                <li key={item} className="text-gray-400 flex items-center gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary/50"></div>
+                  {item}
+                </li>
+              ))}
             </ul>
           </div>
         </div>
 
-        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} Thacker Tours & Travels. All rights reserved.</p>
+        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-gray-500">
+          <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
+            <p>&copy; {new Date().getFullYear()} Thacker Tours & Travels. All rights reserved.</p>
+            <div className="flex gap-4">
+              <PrivacyPolicy>
+                <button className="hover:text-primary transition-colors">Privacy Policy</button>
+              </PrivacyPolicy>
+              <span className="hidden md:inline text-white/10">|</span>
+              <TermsOfService>
+                <button className="hover:text-primary transition-colors">Terms of Service</button>
+              </TermsOfService>
+              <span className="hidden md:inline text-white/10">|</span>
+              <RefundPolicy>
+                <button className="hover:text-primary transition-colors">Refund Policy</button>
+              </RefundPolicy>
+            </div>
+          </div>
           <p>Designed with <a href="https://codinghunters.in/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">codinghunters</a></p>
         </div>
       </div>
