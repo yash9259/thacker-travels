@@ -11,7 +11,7 @@ const Fleet = () => {
       <Seo
         title="Bhuj Taxi Fleet & Car Rental | Innova, Ertiga, Tempo Traveller, Urbania"
         description="Choose Bhuj taxi and car rental options for Kutch tours, one-way and round-trip travel, airport transfers, and sightseeing. Our fleet includes Innova, Ertiga, Swift Dzire, Tempo Traveller, and Force Urbania for family, group, and budget packages."
-        keywords="Bhuj taxi fleet, Car rental Bhuj, Bhuj taxi services, Bhuj cab booking, One-way cab Bhuj, Round trip taxi Bhuj, Airport pick up Bhuj, Kutch tour vehicles, Tempo Traveller Bhuj, Force Urbania Bhuj, Innova taxi Bhuj, Ertiga taxi Bhuj, Swift Dzire cab Bhuj, Group travel Bhuj tours, Family tour packages Bhuj"
+        keywords="Bhuj taxi fleet, Car rental Bhuj, Bhuj taxi services, Bhuj cab booking, One-way cab Bhuj, Round trip taxi Bhuj, Airport pick up Bhuj, Kutch tour vehicles, Tempo Traveller Bhuj, Force Urbania Bhuj, Innova taxi Bhuj, Ertiga taxi Bhuj, Swift Dzire cab Bhuj, Group travel Bhuj tours, Family tour packages Bhuj, car rental in bhuj kutchh, innova on rent bhuj, ertiga on rent bhuj, tempo traveller on rent bhuj, luxury car rental bhuj, car rental near me"
         path="/fleet"
         image="/Toyota%20Innova.webp"
         breadcrumbLabel="Fleet"

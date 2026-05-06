@@ -9,7 +9,7 @@ const ContactPage = () => {
       <Seo
         title="Contact Thacker Tours | Bhuj Taxi Booking, Airport Transfer & Kutch Tours"
         description="Contact us for Bhuj taxi booking, airport pickup, one-way and round-trip cabs, and Kutch sightseeing tours. Reserve White Rann, Rann Utsav, Mandvi Beach, and Dholavira heritage packages for families, groups, or budgets."
-        keywords="Taxi booking Bhuj, Bhuj taxi services, Bhuj cab booking, Airport pick up Bhuj, Airport transfer Kutch, One-way cab Bhuj, Round trip taxi Bhuj, Kutch tour packages, Rann Utsav tour packages, White Rann tours from Bhuj, Mandvi Beach tours, Dholavira heritage tour, Family tour packages Bhuj, Budget tour packages Bhuj, Group travel Bhuj tours"
+        keywords="Taxi booking Bhuj, Bhuj taxi services, Bhuj cab booking, Airport pick up Bhuj, Airport transfer Kutch, One-way cab Bhuj, Round trip taxi Bhuj, Kutch tour packages, Rann Utsav tour packages, White Rann tours from Bhuj, Mandvi Beach tours, Dholavira heritage tour, Family tour packages Bhuj, Budget tour packages Bhuj, Group travel Bhuj tours, car rental in bhuj kutchh, car hire bhuj, car on rent bhuj, taxi booking near me, car rental near me"
         path="/contact"
         breadcrumbLabel="Contact"
       />
